@@ -1,0 +1,38 @@
+.navbar {
+    background: #224058;
+    height: 400px;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-item a:hover,
+.fa-user-circle:hover {
+    color: gray;
+    font-weight: 800;
+    transition: .5s all ease;
+}
+
+.navbar-item {
+    margin: 20px 80px;
+}
+
+.odgo-home,
+.odgo-parceiros,
+.odgo-login {
+    padding-left: 70px;
+}
+
+.fa-user-circle {
+    color: white;
+    font-size: 26px;
+}

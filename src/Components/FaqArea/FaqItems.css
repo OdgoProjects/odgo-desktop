@@ -1,0 +1,36 @@
+.faq-box {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-items {
+    background: lightgray;
+    margin: 5px;
+    width: 70%;
+}
+
+.inside-items {
+    padding: 20px;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+    width: 100%;
+}
+
+
+
