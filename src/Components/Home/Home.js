@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
-import FaqItems from '../FaqArea/FaqItems'
+import Header from '../../Components/Home/Header/Header'
+import Footer from '../../Components/Home/Footer/Footer'
+import FaqItems from '../../Components/Home/FaqArea/FaqItems'
 
 class Home extends Component {
   render() {

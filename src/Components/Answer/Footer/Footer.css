@@ -1,0 +1,48 @@
+.footer-answer {
+    background: #9b3a15;
+    color: white;
+    height: 200px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.list-inline-item {
+    list-style-type: none;
+}
+
+.list-inline-item a i {
+    color: white;
+    font-size: 28px;
+    margin: 30px 10px 0 10px;
+}
+
+.list-inline-item a i:hover {
+    color: gray;
+    font-weight: 800;
+    transition: .5s all ease;
+}
+
+.company-info, 
+.copyright-info {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+}
+
+.cidadania-link {
+    text-decoration: none;
+    color: white;
+}
+
+.cidadania-link:hover {
+    color: gray;
+    transition: .5s all ease;
+}
