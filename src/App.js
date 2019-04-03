@@ -1,18 +1,17 @@
 import React, { Component } from 'react'
+import { BrowserRouter, Route } from 'react-router-dom'
 
 import './Reset.css'
-import Header from './Components/Header/Header'
-import Footer from './Components/Footer/Footer'
-import FaqItems from './Components/FaqArea/FaqItems'
+import Home from './Components/Home/Home'
+import Answer from './Components/Answer/Answer'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header />
-        <FaqItems />
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <Route path='/' component={ Home } />
+        <Route path='/answer' component={ Answer } />
+      </BrowserRouter>
     );
   }
 }
