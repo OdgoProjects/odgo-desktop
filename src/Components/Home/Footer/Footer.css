@@ -37,6 +37,10 @@ ul {
     justify-content: center;
 }
 
+.company-info {
+    margin: 20px 0 5px 0;
+}
+
 .cidadania-link {
     text-decoration: none;
     color: white;

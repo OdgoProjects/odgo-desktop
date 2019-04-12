@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import './FaqItems.css'
+import './FAQItems.css'
 
 class FaqItems extends Component {
     render(){

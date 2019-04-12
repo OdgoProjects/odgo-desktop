@@ -1,4 +1,4 @@
-form {
+.form-home {
     display: flex;
     flex-direction: row;
     flex: 1;
@@ -18,7 +18,7 @@ label {
     align-items: center;
 }
 
-.input-box {
+.input-box-home {
     position: relative;
     width: 50%;
 

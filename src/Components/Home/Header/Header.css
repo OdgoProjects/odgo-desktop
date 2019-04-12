@@ -8,31 +8,25 @@
     flex-direction: row;
     flex: 1;
     justify-content: space-between;
+    padding: 20px 80px;
 }
 
-.navbar-item a {
-    text-decoration: none;
-    color: white;
-}
-
-.navbar-item a:hover,
+.odgo-home:hover,
 .fa-user-circle:hover {
     color: gray;
     font-weight: 800;
     transition: .5s all ease;
 }
 
-.navbar-item {
-    margin: 20px 80px;
-}
-
 .odgo-home,
-.odgo-parceiros,
 .odgo-login {
-    padding-left: 70px;
+    margin-left: 70px;
+    text-decoration: none;
+    color: white;
 }
 
 .fa-user-circle {
     color: white;
     font-size: 26px;
 }
+

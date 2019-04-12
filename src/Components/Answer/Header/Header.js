@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 import './Header.css'
-import Search from '../Search/Search'
+// import Search from '../Search/Search'
 
 class Header extends Component {
     render(){
@@ -9,22 +10,41 @@ class Header extends Component {
             <header>
                 <nav className="navbar nav-answer" role="navigation" aria-label="main navigation">
                     <div className="main-nav">
-                        <a href="/" className="navbar-item odgo-logo">
-                            <img src="" alt="odgo logo" width="" height="" />
-                        </a>
+                        <div>
+                            <Link to="/" className="navbar-item odgo-logo">
+                                <img src="" alt="odgo logo" width="" height="" />
+                            </Link>
+                        </div>
+                        <form action="" method="POST" className='form-answer'>
+                                <div className="input-box-answer">
+                                    <div className="button-area">
+                                        <input type="search" />
+                                        <button>
+                                            <i className="fa fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
                         <div className="navbar-item">
-                            <a href="/" className="odgo-home">
+                            <Link to="/" className="odgo-home">
                                 Home
-                            </a>
-                            <a href="/" className="odgo-parceiros">
-                                Parceiros
-                            </a>
-                            <a href="/" className="odgo-login">
+                            </Link>
+                            <Link className="odgo-login">
                                 <i className="fas fa-user-circle"></i>
-                            </a>
+                            </Link>
                         </div>
                     </div>
-                    <Search />
+                    <div className='user-answer'>
+                        <div className="user-picture">
+                        
+                        </div>
+                        <div className="topic-question">
+                            <p>Onde morar em Portugal?</p>
+                        </div>
+                        <div className="topic-item">
+                            <p>moradia</p>
+                        </div>
+                    </div>
                 </nav>
             </header>
         )
