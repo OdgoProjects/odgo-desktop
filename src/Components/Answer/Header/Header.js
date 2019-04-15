@@ -36,13 +36,15 @@ class Header extends Component {
                     </div>
                     <div className='user-answer'>
                         <div className="user-picture">
-                        
+                            <img src="" alt=""/>
                         </div>
-                        <div className="topic-question">
-                            <p>Onde morar em Portugal?</p>
-                        </div>
-                        <div className="topic-item">
-                            <p>moradia</p>
+                        <div className="topics">
+                            <div className="topic-question">
+                                <p>Onde morar em Portugal?</p>
+                            </div>
+                            <div className="topic-item">
+                                <p>moradia</p>
+                            </div>
                         </div>
                     </div>
                 </nav>

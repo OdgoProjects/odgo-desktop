@@ -1,0 +1,20 @@
+.answer-blocks {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 83px 225px;
+}
+
+.answer-block-left {
+    justify-content: flex-start;
+
+}
+
+.answer-block-right {
+    justify-content: flex-end;
+}
+
+
