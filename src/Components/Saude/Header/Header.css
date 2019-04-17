@@ -1,6 +1,6 @@
 .nav-saude {
     background: #63967d;
-    height: 300px;
+    height: 350px;
 }
 
 .main-nav {
@@ -16,6 +16,10 @@
     color: lightgray;
     font-weight: 800;
     transition: .5s all ease;
+}
+
+.navbar-item {
+    margin-top: 20px;
 }
 
 .odgo-home,
