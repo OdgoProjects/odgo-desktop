@@ -4,10 +4,10 @@ import Header from './Header/Header';
 import Footer from './Footer/Footer'
 import AnswerArea from './AnswerArea/AnswerArea';
 
-class Answer extends Component {
+class Moradia extends Component {
     render() {
         return(
-            <div className="answer">
+            <div className="moradia">
                 <Header />
                 <AnswerArea />
                 <Footer />
@@ -16,4 +16,4 @@ class Answer extends Component {
     }
 }
 
-export default Answer
+export default Moradia

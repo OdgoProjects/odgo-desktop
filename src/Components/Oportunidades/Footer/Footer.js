@@ -4,7 +4,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <footer className="footer-answer">
+        <footer className="footer-oportunidades">
             <ul>
                 <li className="list-inline-item">
                     <a href="/">

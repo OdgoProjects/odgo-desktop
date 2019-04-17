@@ -10,11 +10,20 @@
 
 .answer-block-left {
     justify-content: flex-start;
+    flex: 2;
+    margin-right: 20px;
+}
 
+.answer-block-left>p {
+    font-size: 20px;
+    line-height: 26px;
+    align-self: flex-start;
+    color: #717171;
 }
 
 .answer-block-right {
     justify-content: flex-end;
+    flex: 1;
 }
 
 

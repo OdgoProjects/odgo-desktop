@@ -1,5 +1,5 @@
-.footer-answer {
-    background: #9b3a15;
+.footer-saude {
+    background: #63967d;
     color: white;
     height: 200px;
 }
@@ -24,7 +24,7 @@ ul {
 }
 
 .list-inline-item a i:hover {
-    color: gray;
+    color: lightgray;
     font-weight: 800;
     transition: .5s all ease;
 }
@@ -47,6 +47,6 @@ ul {
 }
 
 .cidadania-link:hover {
-    color: gray;
+    color: lightgray;
     transition: .5s all ease;
 }

@@ -1,0 +1,29 @@
+.answer-blocks {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 83px 225px;
+}
+
+.answer-block-left {
+    justify-content: flex-start;
+    flex: 2;
+    margin-right: 20px;
+}
+
+.answer-block-left>p {
+    font-size: 20px;
+    line-height: 26px;
+    align-self: flex-start;
+    color: #717171;
+}
+
+.answer-block-right {
+    justify-content: flex-end;
+    flex: 1;
+}
+
+

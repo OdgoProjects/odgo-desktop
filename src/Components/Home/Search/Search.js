@@ -10,9 +10,9 @@ class Search extends Component {
                 <div className="input-box-home">
                 <label>Vai se mudar para portugal? Podemos tirar suas dúvidas!</label>
                     <div className="button-area">
-                    <input type="search" />
-                        <button>
-                            <i className="fa fa-search"></i>
+                    <input type="search" className='search-bar' placeholder="Procurando algo?"/>
+                        <button className='lupa-button'>
+                            <i className="fa fa-search lupa"></i>
                         </button>
                     </div>
                 </div>

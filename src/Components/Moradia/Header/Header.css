@@ -1,4 +1,4 @@
-.nav-answer {
+.nav-moradia {
     background: #9b3a15;
     height: 300px;
 }
@@ -13,7 +13,7 @@
 
 .odgo-home:hover,
 .fa-user-circle:hover {
-    color: gray;
+    color: lightgray;
     font-weight: 800;
     transition: .5s all ease;
 }
@@ -97,8 +97,8 @@ button {
     margin-top: 100px;
 }
 
-.topic-item {
-    width: 160px;
+.topic-item-moradia {
+    width: 150px;
     height: 30px;
     background-color: #c54a39;
     border-radius: 15px;
@@ -112,6 +112,6 @@ button {
 }
 
 .topic-question>p,
-.topic-item>p {
+.topic-item-moradia>p {
     color: #fff;
 }

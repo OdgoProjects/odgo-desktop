@@ -8,7 +8,7 @@ class Header extends Component {
     render(){
         return(
             <header>
-                <nav className="navbar nav-answer" role="navigation" aria-label="main navigation">
+                <nav className="navbar nav-primeiros-passos" role="navigation" aria-label="main navigation">
                     <div className="main-nav">
                         <div>
                             <Link to="/" className="navbar-item odgo-logo">
@@ -42,8 +42,8 @@ class Header extends Component {
                             <div className="topic-question">
                                 <p>Onde morar em Portugal?</p>
                             </div>
-                            <div className="topic-item">
-                                <p>moradia</p>
+                            <div className="topic-item-primeiros-passos">
+                                <p>primeiros passos</p>
                             </div>
                         </div>
                     </div>

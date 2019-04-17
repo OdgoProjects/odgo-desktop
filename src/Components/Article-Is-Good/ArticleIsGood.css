@@ -1,0 +1,40 @@
+.question-util {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    border: solid 1px #c54a39;
+    border-radius: 22px;
+    height: 48px;
+    margin-right: 20px;
+}
+
+.question-util>p {
+    color: #707070;
+    font-size: 20px;
+    line-height: 26;
+    align-self: center;
+    padding: 10px 20px;
+}
+
+.buttons-util {
+    position: relative;
+    margin: 10px 20px;
+}
+
+.click-yes {
+    width: 63px;
+    height: 28px;
+    border-radius: 7px;
+    background-color: #c54a39;
+    color: #fff;
+    margin-right: 80px;
+}
+
+.click-no {
+    width: 63px;
+    height: 28px;
+    border-radius: 7px;
+    background-color: #c54a39;
+    color: #ffffff;
+}

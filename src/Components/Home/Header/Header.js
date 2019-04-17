@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 import './Header.css'
+import logo from '../../../Img/Odgo-logo.svg'
 import Search from '../Search/Search'
 
 class Header extends Component {
@@ -12,7 +13,7 @@ class Header extends Component {
                     <div className="main-nav">
                         <div>
                             <Link to="/" className="navbar-item odgo-logo">
-                                <img src="" alt="odgo logo" width="" height="" />
+                                <img src={ logo } alt="odgo logo" width="70" height="70" />
                             </Link>
                         </div>
                         <div className="navbar-item">

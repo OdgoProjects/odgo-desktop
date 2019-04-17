@@ -13,9 +13,13 @@
 
 .odgo-home:hover,
 .fa-user-circle:hover {
-    color: gray;
+    color: lightgray;
     font-weight: 800;
     transition: .5s all ease;
+}
+
+.navbar-item {
+    margin-top: 20px;
 }
 
 .odgo-home,

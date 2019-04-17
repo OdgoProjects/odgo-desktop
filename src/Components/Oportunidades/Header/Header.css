@@ -1,0 +1,117 @@
+.nav-oportunidades {
+    background: #bca742;
+    height: 300px;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.odgo-home:hover,
+.fa-user-circle:hover {
+    color: lightgray;
+    font-weight: 800;
+    transition: .5s all ease;
+}
+
+.odgo-home,
+.odgo-login {
+    margin-left: 70px;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-user-circle {
+    color: white;
+    font-size: 26px;
+}
+
+.form-answer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding-left: 70px;
+}
+
+label {
+    color: white;
+    padding: 10px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box-answer {
+    position: relative;
+    width: 60%;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.button-area {
+    position: relative;
+}
+
+button {
+    cursor: pointer;
+    position: absolute;   
+    top: 0; 
+    right: 0;
+    padding: 8px 10px;
+    background: transparent;
+    border: none;
+}
+
+.user-answer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.topics {
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.user-picture {
+    width: 110px;
+    height: 110px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 18%;
+    margin-top: 100px;
+}
+
+.topic-item-oportunidades {
+    width: 150px;
+    height: 30px;
+    background-color: #bca742;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 1px #bca742;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic-question>p,
+.topic-item-oportunidades>p {
+    color: #fff;
+}
