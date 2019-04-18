@@ -8,7 +8,9 @@
     font-size: 18px;
 }
 
-label {
+.name-question>label,
+.email-question>label,
+.text-question>label {
     color: #707070;
     justify-content: flex-start;
     padding: 0;

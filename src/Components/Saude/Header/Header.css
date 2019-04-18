@@ -1,5 +1,9 @@
 .nav-saude {
-    background: #63967d;
+    background-image: url('../../../Img/saude.png') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 350px;
 }
 
@@ -93,8 +97,8 @@ button {
 }
 
 .user-picture {
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     background-color: #fff;
     border-radius: 50%;
     margin-left: 18%;

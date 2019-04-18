@@ -8,6 +8,7 @@ import Moradia from './Components/Moradia/Moradia'
 import Saude from './Components/Saude/Saude'
 import PrimeirosPassos from './Components/Primeiros-Passos/PrimeirosPassos'
 import Oportunidades from './Components/Oportunidades/Oportunidades'
+import Documentacao from './Components/Documentacao/Documentacao'
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route path='/saude' component={ Saude } />
           <Route path='/primeiros-passos' component={ PrimeirosPassos } />
           <Route path='/oportunidades' component={ Oportunidades } />
+          <Route path='/documentacao' component={ Documentacao } />
           <Route component={ Error } />
         </Switch>
       </BrowserRouter>

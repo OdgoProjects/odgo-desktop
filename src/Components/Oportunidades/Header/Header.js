@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 import './Header.css'
-import logo from '../../../Img/Odgo-logo.svg'
+import logo from '../../../Img/logo.svg'
 
 class Header extends Component {
     render(){

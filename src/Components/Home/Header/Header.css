@@ -1,5 +1,9 @@
 .navbar {
-    background: #224058;
+    background-image: url('../../../Img/home.png');
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 400px;
 }
 

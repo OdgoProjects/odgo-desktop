@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 import './Header.css'
-import logo from '../../../Img/Odgo-logo.svg'
+import logo from '../../../Img/logo.svg'
 
 class Header extends Component {
     render(){
@@ -12,7 +12,7 @@ class Header extends Component {
                     <div className="main-nav">
                         <div>
                             <Link to="/" className="navbar-item odgo-logo">
-                            <img src={ logo } alt="odgo logo" width="70" height="70" />
+                                <img src={ logo } alt="odgo logo" width="70" height="70" />
                             </Link>
                         </div>
                         <form action="" method="POST" className='form-answer'>

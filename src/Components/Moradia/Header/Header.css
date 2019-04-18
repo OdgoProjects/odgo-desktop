@@ -1,5 +1,9 @@
 .nav-moradia {
-    background: #9b3a15;
+    background-image: url('../../../Img/moradia.png') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 350px;
 }
 
@@ -94,8 +98,8 @@ button {
 }
 
 .user-picture {
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     background-color: #fff;
     border-radius: 50%;
     margin-left: 18%;
