@@ -6,17 +6,15 @@ class Search extends Component {
     render(){
         return(
             <form action="" method="POST" className='form-home'>
-     
                 <div className="input-box-home">
-                <label>Vai se mudar para portugal? Podemos tirar suas dúvidas!</label>
-                    <div className="button-area">
+                <label>Vai se mudar para Portugal? Podemos tirar suas dúvidas!</label>
+                    <div className="button-area-search">
                     <input type="search" className='search-bar' placeholder="Procurando algo?"/>
                         <button className='lupa-button'>
                             <i className="fa fa-search lupa"></i>
                         </button>
                     </div>
-                </div>
-                
+                </div> 
             </form>
         )
     }

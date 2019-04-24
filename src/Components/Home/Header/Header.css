@@ -1,9 +1,9 @@
 .navbar {
     background-image: url('../../../Img/home.png');
     background-size: cover;
-    background-position: 100%;
+    background-position-y: 50%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     height: 400px;
 }
 
@@ -12,7 +12,7 @@
     flex-direction: row;
     flex: 1;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 10px 70px;
 }
 
 .odgo-home:hover,

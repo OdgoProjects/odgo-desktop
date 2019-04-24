@@ -7,21 +7,23 @@
     margin-top: 100px;
 }
 
-label {
-    color: white;
-    padding: 10px;
-    display: block;
+.input-box-home {
+    position: relative;
+    width: 50%;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.input-box-home>label {
     display: flex;
     flex-direction: row;
     flex: 1;
     justify-content: center;
     align-items: center;
-}
-
-.input-box-home {
-    position: relative;
-    width: 50%;
-
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    padding: 10px;
 }
 
 .search-bar {
@@ -29,11 +31,19 @@ label {
     height: 40px;
     border: 2px solid white;
     border-radius: 20px;
-    padding: 10px;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    padding: 10px 20px;
 }
 
-.button-area {
+.search-bar::placeholder {
+    color: #8b8b8b;
+}
+
+.button-area-search {
     position: relative;
+    padding: 10px;
 }
 
 .lupa-button {
@@ -41,13 +51,15 @@ label {
     position: absolute;   
     top: 0; 
     right: 0;
-    padding: 13px 15px;
+    padding: 21px 25px;
     background: transparent;
     border: none;
+    color: #8b8b8b;
 }
 
 .lupa {
-    font-size: 16px;
+    font-size: 17px;
+
 }
 
 

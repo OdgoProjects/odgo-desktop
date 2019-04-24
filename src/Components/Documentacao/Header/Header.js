@@ -20,7 +20,7 @@ class Header extends Component {
                                     <div className="button-area">
                                         <input type="search" placeholder="Procurando algo?" />
                                         <button>
-                                            <i className="fa fa-search"></i>
+                                            <i className="fa fa-search sub-lupa"></i>
                                         </button>
                                     </div>
                                 </div>
