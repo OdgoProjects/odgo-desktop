@@ -6,12 +6,12 @@
     align-items: center;
     width: 100%;
     background-color: #c54a39;
-    height: 106px;
+    height: 70px;
 }
 
 .question-button {
-    width: 374px;
-    height: 54px;
+    width: 270px;
+    height: 40px;
     background-color: #fff;
     border-radius: 100px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -26,8 +26,8 @@
 .talk {
     text-transform: uppercase;
     color: #c54a39;
-    font-size: 14px;
-    font-weight: 900;
+    font-size: 13px;
+    font-weight: 700;
     line-height: 1.36;
 }
 

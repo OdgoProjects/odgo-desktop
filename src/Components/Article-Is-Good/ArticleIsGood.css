@@ -5,36 +5,39 @@
     justify-content: space-between;
     border: solid 1px #c54a39;
     border-radius: 22px;
-    height: 48px;
+    height: 40px;
+    width: 100%;
     margin-right: 20px;
 }
 
 .question-util>p {
     color: #707070;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 26;
     align-self: center;
-    padding: 10px 20px;
+    padding: 7px 15px;
 }
 
 .buttons-util {
     position: relative;
-    margin: 10px 20px;
+    margin: 7px 25px;
 }
 
 .click-yes {
-    width: 63px;
-    height: 28px;
+    width: 60px;
+    height: 25px;
     border-radius: 7px;
     background-color: #c54a39;
     color: #fff;
     margin-right: 80px;
+    text-transform: uppercase;
 }
 
 .click-no {
-    width: 63px;
-    height: 28px;
+    width: 60px;
+    height: 25px;
     border-radius: 7px;
     background-color: #c54a39;
-    color: #ffffff;
+    color: #fff;
+    text-transform: uppercase;
 }
