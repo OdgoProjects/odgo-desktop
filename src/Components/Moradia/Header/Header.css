@@ -93,7 +93,7 @@ button {
 }
 
 .topics {
-    margin-left: 40px;
+    margin-left: 30px;
     margin-top: 10px;
 }
 
@@ -107,8 +107,8 @@ button {
 }
 
 .topic-item-moradia {
-    width: 150px;
-    height: 30px;
+    width: 90px;
+    height: 25px;
     background-color: #c54a39;
     border-radius: 15px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -123,6 +123,17 @@ button {
 .topic-question>p,
 .topic-item-moradia>p {
     color: #fff;
+}
+
+.topic-question>p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.topic-item-documentacao>p {
+    font-size: 15px;
+    font-weight: 200;
 }
 
 .sub-lupa {

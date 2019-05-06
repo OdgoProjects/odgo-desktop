@@ -5,13 +5,13 @@
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    margin: 83px 170px;
+    margin: 70px 170px;
 }
 
 .answer-block-left {
     justify-content: flex-start;
     flex: 2;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 #your-question {
@@ -21,7 +21,8 @@
 }
 
 #your-answer {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.5;
     align-self: flex-start;
     color: #717171;
 }
